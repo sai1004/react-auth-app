@@ -1,4 +1,5 @@
 import "./loginPage.css";
+import loginCard from "../../components/loginCard";
 
 const loginPage = () => {
   return (
