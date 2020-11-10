@@ -5,5 +5,79 @@
   background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
+  position: fixed;
+}
+
+.login__card {
+  max-width: 350px;
+  max-height: max-content;
+  background-color: #ffffff;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+}
+
+.card__body {
+  padding: 10px;
+}
+
+.logo__section {
+  text-align: center;
+}
+
+.box input {
+  height: 24px;
+  width: 310px;
+  outline: none;
+}
+
+.box h4 {
+  text-align: center;
+}
+
+.form__Inputs input {
+  margin-bottom: 20px;
+}
+
+.btn__submit {
+  height: 40px;
+  width: 150px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0.15) 0%,
+      rgba(0, 0, 0, 0.15) 100%
+    ),
+    radial-gradient(
+        at top center,
+        rgba(255, 255, 255, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 120%
+      )
+      #989898;
+  background-blend-mode: multiply, multiply;
+}
+
+.submit {
+  text-align: center;
+}
+
+.below__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.below__text .text_one:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.below__text .text_two:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
