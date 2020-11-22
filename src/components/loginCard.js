@@ -1,4 +1,8 @@
 const loginCard = () => {
+  const handelSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <>
       <div className="logo__section">
@@ -8,7 +12,7 @@ const loginCard = () => {
         <div>
           <h4> Login To Your Account </h4>
         </div>
-        <form>
+        <form onSubmit={handelSubmit}>
           <div className="form__Inputs">
             <div>
               <input type="email" placeholder="Enter Your Email" required />
@@ -22,7 +26,9 @@ const loginCard = () => {
             </div>
           </div>
           <div className="submit">
-            <button className="btn__submit"> Submit </button>
+            <button type="submit" className="btn__submit">
+              Submit
+            </button>
           </div>
         </form>
       </div>
